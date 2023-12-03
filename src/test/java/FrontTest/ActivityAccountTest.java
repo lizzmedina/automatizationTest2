@@ -29,7 +29,7 @@ public class ActivityAccountTest {
         wait = new WebDriverWait(driver, Duration.ofSeconds(3));
         ActivityAccountPage activityAccount = new ActivityAccountPage(driver, wait);
         activityAccount.setUp();
-        activityAccount.getUrl("https://parabank.parasoft.com/parabank/register.htm");
+        activityAccount.getUrl("https://parabank.parasoft.com/parabank/index.htm");
     }
 
     @Test

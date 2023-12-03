@@ -26,7 +26,7 @@ public class CreateAccountTest {
         wait = new WebDriverWait(driver, Duration.ofSeconds(3));
         CreateAccountPage createAccountPage = new CreateAccountPage(driver, wait);
         createAccountPage.setUp();
-        createAccountPage.getUrl("https://parabank.parasoft.com/parabank/register.htm");
+        createAccountPage.getUrl("https://parabank.parasoft.com/parabank/index.htm");
     }
 
     @Test

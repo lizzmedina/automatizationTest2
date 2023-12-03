@@ -27,7 +27,7 @@ public class TransferTest {
         wait = new WebDriverWait(driver, Duration.ofSeconds(3));
         TransferPage transferPage = new TransferPage(driver, wait);
         transferPage.setUp();
-        transferPage.getUrl("https://parabank.parasoft.com/parabank/register.htm");
+        transferPage.getUrl("https://parabank.parasoft.com/parabank/index.htm");
     }
 
     @Test
