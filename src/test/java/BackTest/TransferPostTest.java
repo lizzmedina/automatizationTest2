@@ -13,7 +13,7 @@ public class TransferPostTest {
 
         given()
                 .contentType("application/json")
-                .when().post("https://parabank.parasoft.com/parabank/services/bank/transfer?fromAccountId=15120&toAccountId=13788&amount=5")
+                .when().post("https://parabank.parasoft.com/parabank/services/bank/transfer?fromAccountId=20004&toAccountId=19782&amount=5")
                 .then().statusCode(200)
                 .log().status()
                 .log().body();

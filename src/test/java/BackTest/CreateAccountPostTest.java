@@ -11,7 +11,7 @@ public class CreateAccountPostTest {
     public void PostCreateAccount_test_1() {
         given()
                 .contentType("application/json")
-                .when().post("https://parabank.parasoft.com/parabank/services/bank/createAccount?customerId=12656&newAccountType=1&fromAccountId=13788")
+                .when().post("https://parabank.parasoft.com/parabank/services/bank/createAccount?customerId=15209&newAccountType=1&fromAccountId=19782")
                 .then().statusCode(200)
                 .log().status()
                 .log().body();
